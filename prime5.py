@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+#
 #Licence: MIT
 #
 #Author(s): Brian Byrne
@@ -26,7 +29,7 @@ countToUpper=1
 #
 # Two loops, one to the upper limit (ie. 250)
 # Another to compare the current number with previous
-# mod them and if 0 then not prime, continue on
+# mod them and if 0 then not prime, continue on.
 #
 while countToUpper<upperLimit+1:
     countToUpper = countToUpper+1
@@ -36,7 +39,7 @@ while countToUpper<upperLimit+1:
             prime_array [countToUpper]=False
 #
 # At this point we have an array stuffed full of boolean values 
-# and we print only the True ones
+# and we print only the True ones.
 # 
 for i in range(upperLimit):
     if prime_array[i] :
